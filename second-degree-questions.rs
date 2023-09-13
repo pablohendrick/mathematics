@@ -8,7 +8,7 @@ fn main() {
     if discriminant1 > 0.0 {
         let root1 = (-b1 + discriminant1.sqrt()) / (2.0 * a1);
         let root2 = (-b1 - discriminant1.sqrt()) / (2.0 * a1);
-        println!("Questão 1 - Raízes: {} e {}", root1, root2);
+        println!("Question 1 - Roots: {} e {}", root1, root2);
     } else if discriminant1 == 0.0 {
         let root = -b1 / (2.0 * a1);
         println!("Question 1 - Double root: {}", root);
@@ -25,7 +25,7 @@ fn main() {
     if discriminant2 > 0.0 {
         let root1 = (-b2 + discriminant2.sqrt()) / (2.0 * a2);
         let root2 = (-b2 - discriminant2.sqrt()) / (2.0 * a2);
-        println!("Question 3 - Roots: {} and {}", root1, root2);
+        println!("Question 2 - Roots: {} and {}", root1, root2);
     } else if discriminant2 == 0.0 {
         let root = -b2 / (2.0 * a2);
         println!("Question 2 - Double root: {}", root);
@@ -76,7 +76,7 @@ fn main() {
     if discriminant5 > 0.0 {
         let root1 = (-b5 + discriminant5.sqrt()) / (2.0 * a5);
         let root2 = (-b5 - discriminant5.sqrt()) / (2.0 * a5);
-        println!("Questão 5 - Raízes: {} e {}", root1, root2);
+        println!("Question 5 - Roots: {} e {}", root1, root2);
     } else if discriminant5 == 0.0 {
         let root = -b5 / (2.0 * a5);
         println!("Question 5 - Double root: {}", root);
@@ -93,7 +93,7 @@ fn main() {
     if discriminant6 > 0.0 {
         let root1 = (-b6 + discriminant6.sqrt()) / (2.0 * a6);
         let root2 = (-b6 - discriminant6.sqrt()) / (2.0 * a6);
-        println!("Questão 6 - Raízes: {} e {}", root1, root2);
+        println!("Question 6 - Roots: {} e {}", root1, root2);
     } else if discriminant6 == 0.0 {
         let root = -b6 / (2.0 * a6);
         println!("Question 6 - Double root: {}", root);
