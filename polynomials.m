@@ -28,7 +28,6 @@ fprintf('The roots are: ');
 disp(roots');
 
 % Briot-Ruffini method
-
 function [quotient, remainder] = briotRuffini(dividend, divisor)
     n = length(dividend);
     quotient = zeros(1, n - length(divisor));
@@ -49,4 +48,3 @@ fprintf('The quotient is: ');
 disp(quotient);
 fprintf('The remainder is: ');
 disp(remainder);
-
